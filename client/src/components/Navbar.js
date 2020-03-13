@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <h1>Crypto Tracker</h1>
+      <h1>Women's World Cup Project</h1>
       <div className="dark-mode__toggle">
         <div
           onClick={toggleMode}
