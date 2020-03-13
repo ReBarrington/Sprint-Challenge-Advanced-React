@@ -3,10 +3,13 @@ import React from "react";
 
 const Player = props => {
     // console.log(props, " is props for Player")
+    let className = `${props.country}`.replace(/\s/g, '');
+    className += ' player-card'
+    console.log(className)
     return (
-        <div className="player-card">
-            <p>Name: {props.name}</p>
-            <p>Country: {props.country}</p>
+        <div className={className}>
+            <h1>Name: {props.name}</h1>
+            <h2>Country: {props.country}</h2>
         </div>
     )
 }
