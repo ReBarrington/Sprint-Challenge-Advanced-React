@@ -2,11 +2,11 @@ import React from "react";
 
 
 const Player = props => {
-    // console.log(props.name, " is props for Player")
-    console.log('hello')
+    // console.log(props, " is props for Player")
     return (
-        <div>
-            <p>Name: {props.data.name}</p>
+        <div className="player-card">
+            <p>Name: {props.name}</p>
+            <p>Country: {props.country}</p>
         </div>
     )
 }

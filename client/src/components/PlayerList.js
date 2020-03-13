@@ -6,10 +6,8 @@ const PlayerList = props => {
     console.log(props, " is props for PlayerList")
     return (
         <div>
-            {props.data.map(number =>{
-                console.log(number, " number")
-                number.map(playerInfo => {
-                    console.log(playerInfo.name, " is playerInfo.name")
+            {props.data.map(playerInfo =>{
+                console.log(playerInfo, " playerInfo")
                     return (
                         <Player key={playerInfo.id} name={playerInfo.name} country={playerInfo.country} />
                     )
