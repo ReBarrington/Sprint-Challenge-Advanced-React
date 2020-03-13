@@ -66,6 +66,7 @@ code {
 .player-card {
   border: 5px solid black;
   margin: 2%;
+  padding-bottom: 15%;
 }
 
 .player-card p {
@@ -73,7 +74,7 @@ code {
 }
 
 .UnitedStates {
-  background-image: url('https://images.unsplash.com/photo-1499188073299-5bd9060e044b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+  background: url(./components/img/usa.jpg);
   background-position: center;
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.4);
@@ -82,6 +83,86 @@ code {
 
 .Brazil {
   background: url(./components/img/Brazil.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.France {
+  background: url(./components/img/france.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.Sweden {
+  background: url(./components/img/sweden.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.Netherlands {
+  background: url(./components/img/netherlands-flag-large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.Australia {
+  background: url(./components/img/australia-flag-large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.Chile {
+  background: url(./components/img/chile-flag-large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.England {
+  background: url(./components/img/united-kingdom-flag-large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.Italy {
+  background: url(./components/img/italy-flag-large.png);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.Germany {
+  background: url(./components/img/germany-flag-large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.Canada {
+  background: url(./components/img/canada-flag-large.png);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.Spain {
+  background: url(./components/img/spain-flag-large.jpg);
   background-position: center;
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.4);

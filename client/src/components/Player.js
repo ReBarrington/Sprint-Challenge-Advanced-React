@@ -8,8 +8,7 @@ const Player = props => {
     console.log(className)
     return (
         <div className={className}>
-            <h1>Name: {props.name}</h1>
-            <h2>Country: {props.country}</h2>
+            <h1>{props.name}</h1>
         </div>
     )
 }
