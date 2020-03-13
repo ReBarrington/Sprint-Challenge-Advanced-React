@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import PlayerList from './PlayerList';
+import PlayerList from './components/PlayerList';
 import './App.css';
 
 
