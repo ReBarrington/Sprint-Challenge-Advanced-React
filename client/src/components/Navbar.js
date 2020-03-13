@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" data-testid="headerTest">
       <h1>Women's World Cup Project</h1>
       <div className="dark-mode__toggle">
         <div

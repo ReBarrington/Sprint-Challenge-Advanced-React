@@ -13,15 +13,4 @@ it('renders without crashing', () => {
 
 });
 
-test("renders the app header", () => {
-
-  const { getByText } = render(<App />);
-
-  const header = getByText(/Women's World Cup Project/i);
-
-  // assert that the header element is being rendered
-  expect(header).ToBeInTheDocument();
-
-});
-
 
